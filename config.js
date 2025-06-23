@@ -1,4 +1,8 @@
 module.exports = {
     'secretKey': '12345-67890-09876-54321',
-    'mongoUrl' : 'mongodb://127.0.0.1:27017/nucampsite'
+    'mongoUrl': 'mongodb://localhost:27017/nucampsite',
+    'facebook': {
+        clientId: '1754290038850808',
+        clientSecret: 'c7aa17185c8a1d2756d3a992f1fe58ef'
+    }
 }
